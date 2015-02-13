@@ -6,6 +6,10 @@
  * Version: 1.0
  * URL: http://blacktie.co
  */
+.Xshadow {
+
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
 
 body {
   background-color: #f2f2f2;
@@ -79,7 +83,7 @@ a:after {
    ========================================================================== */
 
 #headerwrap { 
-	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(../img/StartupF.jpg) no-repeat center top;
+	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(../img/PMFA-21.jpg) no-repeat center top;
 
 	margin-top: -10px;
 	padding-top:20px;
@@ -120,7 +124,7 @@ a:after {
 
 /* Portfolio Wrap */
 #portfoliowrap {
-	background: url(../img/portfolio-bg.jpg) no-repeat center top;
+	background: url(../img/PMFA-12.jpg) no-repeat center top;
 	margin-top: 0px;
 	padding-top:40px;
 	text-align:center;
@@ -223,7 +227,7 @@ a:after {
 /* item Wrap */
 
 #itemwrap {
-	background: url(../img/item-bg.jpg) no-repeat center top;
+	background: url(../img/PMFA-13.jpg) no-repeat center top;
 	margin-top: 0px;
 	padding-top:70px;
 	text-align:center;
@@ -472,3 +476,116 @@ a:after {
 	padding-left: 10px;
 }
 
+
+
+
+/**/
+#more-site {
+  margin-top: 50px;
+  border: 1px solid #fff;
+  color: #fff;
+  font-weight: normal;
+  padding: 10px 25px;
+  display: none;
+  background: transparent;
+}
+#more-site:hover {
+  background: rgba(0, 0, 0, 0.1);
+  border-color: #fff;
+  color: #fff;
+}
+.only-on-home #more-site {
+  display: inline-block;
+}
+@media (max-width: 600px) {
+  #more-site {
+    display: none !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/** Jumbotron!!**/
+
+
+.main-title {
+  position: relative;
+}
+.main-title {
+  -webkit-animation: dropHeader 1 0.75s ease-in;
+  -moz-animation: dropHeader 1 0.75s ease-in;
+  -o-animation: dropHeader 1 0.75s ease-in;
+  animation: dropHeader 1 0.75s ease-in;
+}
+
+.main-title {
+  margin: 0;
+  font-size: 80px;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+}
+ .main-title {
+  font-family: 'Megrim', cursive;
+}
+.main-title  {
+  font-size: 120px;
+}
+@media (max-width: 600px) {
+  .main-title  {
+    font-size: 60px !important;
+  }
+}
+
+@-webkit-keyframes dropHeader {
+  0% {
+    top: -40px;
+    opacity: 0;
+  }
+
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+@-moz-keyframes dropHeader {
+  0% {
+    top: -40px;
+    opacity: 0;
+  }
+
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+@-o-keyframes dropHeader {
+  0% {
+    top: -40px;
+    opacity: 0;
+  }
+
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+@keyframes dropHeader {
+  0% {
+    top: -40px;
+    opacity: 0;
+  }
+
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}

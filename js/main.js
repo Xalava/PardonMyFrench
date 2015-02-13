@@ -1,19 +1,12 @@
-;(function(){
-
-			// Menu settings
-			$('#menuToggle, .menu-close').on('click', function(){
-				$('#menuToggle').toggleClass('active');
-				$('body').toggleClass('body-push-toleft');
-				$('#theMenu').toggleClass('menu-open');
-			});
 
 
-})(jQuery)
-
-
-
-$('#nav').affix({
-      offset: {
-        top: $('header').height()
-      }
-}); 
+//jQuery for page scrolling feature - requires jQuery Easing plugin
+$(function() {
+    $('#more-site').bind('click', function(event) {
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: $($anchor.attr('href')).offset().top
+        }, 1500, 'easeInOutExpo');
+        event.preventDefault();
+    });
+});

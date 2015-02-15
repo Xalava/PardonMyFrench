@@ -10,3 +10,14 @@ $(function() {
         event.preventDefault();
     });
 });
+
+
+
+
+
+function init() {
+			$('.main-title').arctext({radius: 300});
+
+				
+			
+			};

@@ -13,10 +13,10 @@ $(function() {
 
 
 
-
+// var $arc1   = $('.main-title').hide();
 
 function init() {
-			$('.main-title').arctext({radius: 300});
+			$arc1.show().arctext({radius: 300, dir: 1});
 
 				
 			

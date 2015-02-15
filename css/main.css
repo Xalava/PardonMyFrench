@@ -83,7 +83,7 @@ a:after {
    ========================================================================== */
 
 #headerwrap { 
-	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(../img/PMFA-21.jpg) no-repeat center top;
+	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(../img/light/PMFA-21.jpg) no-repeat center top;
 
 	margin-top: -10px;
 	padding-top:20px;
@@ -110,7 +110,7 @@ a:after {
 #headerwrap h1 {
 	margin-top: 130px;
 	color: white;
-	font-size: 140px;
+	font-size: 100px;
 	font-weight: 700;
 	letter-spacing: 3px;
 }
@@ -124,7 +124,7 @@ a:after {
 
 /* Portfolio Wrap */
 #portfoliowrap {
-	background: url(../img/PMFA-12.jpg) no-repeat center top;
+	background: url(../img/light/PMFA-12.jpg) no-repeat center center fixed;
 	margin-top: 0px;
 	padding-top:40px;
 	text-align:center;
@@ -227,7 +227,7 @@ a:after {
 /* item Wrap */
 
 #itemwrap {
-	background: url(../img/PMFA-13.jpg) no-repeat center top;
+	background: url(../img/light/PMFA-13.jpg) no-repeat center top;
 	margin-top: 0px;
 	padding-top:70px;
 	text-align:center;
@@ -517,8 +517,7 @@ a:after {
 
 .main-title {
   position: relative;
-}
-.main-title {
+
   -webkit-animation: dropHeader 1 0.75s ease-in;
   -moz-animation: dropHeader 1 0.75s ease-in;
   -o-animation: dropHeader 1 0.75s ease-in;
@@ -527,18 +526,15 @@ a:after {
 
 .main-title {
   margin: 0;
-  font-size: 80px;
   color: #fff;
   text-decoration: none;
-  display: block;
-  width: 100%;
+/*  display: block;
+*/  width: 100%;
 }
  .main-title {
   font-family: 'Megrim', cursive;
 }
-.main-title  {
-  font-size: 120px;
-}
+
 @media (max-width: 600px) {
   .main-title  {
     font-size: 60px !important;

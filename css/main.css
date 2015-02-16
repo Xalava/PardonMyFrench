@@ -585,3 +585,21 @@ a:after {
     opacity: 1;
   }
 }
+
+
+.contact-icons {
+
+	color:#FFF;
+}
+
+.my-carousel{
+/*	padding: 10%;
+
+
+
+*/
+max-width: 800px; 
+margin: 0 auto;
+
+
+}

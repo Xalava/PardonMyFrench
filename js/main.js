@@ -12,12 +12,13 @@ $(function() {
 });
 
 
-
-// var $arc1   = $('.main-title').hide();
+ var $arc1   = $('.main-title').hide();
 
 function init() {
-			$arc1.show().arctext({radius: 300, dir: 1});
+			$arc1.show().arctext({radius: 800, dir: 1});
 
 				
 			
 			};
+
+init();

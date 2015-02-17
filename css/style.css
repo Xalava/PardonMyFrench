@@ -5,6 +5,13 @@
  * Project Name: Onassis - Free Bootstrap 3 Theme
  * Version: 1.0
  * URL: http://blacktie.co
+
+Red Color: #4A0406
+marron 		885322
+marron sombre	3B2215
+
+
+
  */
 .Xshadow {
 
@@ -42,7 +49,7 @@ p {
 
 /* Links */
 a {
-    color: #f85c37;
+    color: #4A0406;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -194,9 +201,9 @@ a:after {
 /* Footer Wrap */
 
 #f {
-	background: #2f2f2f;
-	padding-top: 70px;
-	padding-bottom: 70px;
+	background: #683302;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	text-align: center
 }
 
@@ -486,7 +493,6 @@ a:after {
   color: #fff;
   font-weight: normal;
   padding: 10px 25px;
-  display: none;
   background: transparent;
 }
 #more-site:hover {
@@ -518,18 +524,17 @@ a:after {
 .main-title {
   position: relative;
 
-  -webkit-animation: dropHeader 1 0.75s ease-in;
+/*  -webkit-animation: dropHeader 1 0.75s ease-in;
   -moz-animation: dropHeader 1 0.75s ease-in;
   -o-animation: dropHeader 1 0.75s ease-in;
-  animation: dropHeader 1 0.75s ease-in;
+  animation: dropHeader 1 0.75s ease-in;*/
 }
 
 .main-title {
   margin: 0;
   color: #fff;
   text-decoration: none;
-/*  display: block;
-*/  width: 100%;
+  width: 100%;
 }
  .main-title {
   font-family: 'Megrim', cursive;
@@ -589,7 +594,7 @@ a:after {
 
 .contact-icons {
 
-	color:#FFF;
+	/*color:#FFF;*/
 }
 
 .my-carousel{

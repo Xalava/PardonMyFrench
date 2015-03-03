@@ -17,6 +17,12 @@ marron sombre	3B2215
 
 	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
+.sub-title {
+	color:#3B2215;
+	text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.6);
+
+
+}
 
 body {
   background-color: #f2f2f2;
@@ -117,14 +123,14 @@ a:after {
 #headerwrap h1 {
 	margin-top: 130px;
 	color: white;
-	font-size: 100px;
-	font-weight: 700;
+	font-size: 110px;
+	/*font-weight: 700;*/
 	letter-spacing: 3px;
 }
 
 #headerwrap h2 {
 	color: white;
-	font-size: 50px;
+	font-size: 70px;
 	font-weight: 100;
 	letter-spacing: 2px;
 }

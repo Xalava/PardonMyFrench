@@ -615,3 +615,11 @@ margin: 0 auto;
 
 
 }
+
+
+
+.sc-artwork-list,
+.sc-info,
+.sc-trackslist,
+.sc-info-toggle,
+.sc-scrubber { display: none !important; }

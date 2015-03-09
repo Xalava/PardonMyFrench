@@ -26,18 +26,17 @@
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
 
 
-    <!-- Player -->
-    <script src="//cdnjs.cloudflare.com/ajax/libs/vue/0.10.6/vue.min.js"></script>
-	<script src="http://d2v52k3cl9vedd.cloudfront.net/plangular/2.0-beta-1/v-plangular.min.js"></script>
+
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
       <script src="js/respond.min.js"></script>
     <![endif]-->
+
   </head>
 
-  <body id="vm">
-  <script> var vm = new Vue({ el: '#vm' }) </script>
+  <body>
 
 	<!-- ========== HEADER SECTION ========== -->
 	<section id="home" name="home"></section>
@@ -50,11 +49,16 @@
 				<br>
 				<!-- <h3> Creativity, Innovation, Impact </h2> -->
 				<!-- <img src="img/LogoPMF.png" alt="" height="80" width="80"> -->
-				<div v-component="plangular" v-src="'https://soundcloud.com/elresound/sets/pardonmyfrench'"></div>
-				<button v-on="click: playPause()">Play/Pause</button>
 
-				<h2 class="Xshadow"><i class="fa fa-headphones"></i>
+<!-- 		  <iframe id="soundcloud_widget"
+		      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/8077544&color=3b2215h&show_artwork=false&liking=false&sharing=false&auto_play=false"
+		      width="0"
+		      height="0"
+		      frameborder="no"></iframe> -->
+				<h2 class="Xshadow"><i class="fa fa-headphones" id="togglesound"></i>
 				</h2>
+			<!-- <button class="btn" id="togglesound">Play</button> -->
+
 				<br>
 
 <!-- 				<h3 class="sub-title"> Innovation is a culture </h3>
@@ -289,6 +293,9 @@
 	
 	
 	<script src="js/jquery.min.js"></script>
+	    <!-- SoundCloud -->
+    <script type="text/javascript" src="http://w.soundcloud.com/player/api.js"></script>
+
 
     <!-- Bootstrap core JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>

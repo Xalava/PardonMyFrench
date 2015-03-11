@@ -183,8 +183,26 @@ a:after {
 }
 
 #w bold {
-/*	color: #2f2f2f;*/
 	color: #683302;
+}
+
+.bleu {
+
+	color: darkblue;
+	font-style: bold;
+}
+
+.blanc {
+
+	color: #CCC;
+		font-style: bold;
+
+}
+
+.rouge {
+
+	color: darkred;
+
 }
 
 
@@ -208,7 +226,7 @@ a:after {
 /* Footer Wrap */
 
 #f {
-	background: #683302;
+	background: #885322;
 	padding-top: 40px;
 	padding-bottom: 30px;
 	text-align: center

@@ -7,6 +7,7 @@
  * URL: http://blacktie.co
 
 Red Color: #4A0406
+
 marron 		885322
 marron sombre	3B2215
 
@@ -226,7 +227,7 @@ a:after {
 /* Footer Wrap */
 
 #f {
-	background: #885322;
+	background: #1e242b;
 	padding-top: 40px;
 	padding-bottom: 30px;
 	text-align: center
@@ -246,7 +247,7 @@ a:after {
 /* Copyright Wrap */
 
 #c {
-	background: #222222;
+	background: #111;
 	padding-top: 15px;
 	text-align: right;
 }
